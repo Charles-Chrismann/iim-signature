@@ -1,8 +1,9 @@
-const canvas1 = document.querySelector('canvas');
+signaturePad._isEmpty = false
+const canvas1 = document.querySelector('canvas.border');
 const ctx = canvas1.getContext('2d');
 const img = new Image();
 img.crossOrigin = 'anonymous';
-img.src = 'http://localhost:3000/image.png';
+img.src = 'http://localhost:3000/aa.jpeg';
 img.onload = () => {
   const Vcanvas = document.createElement('canvas');
   const Vctx = Vcanvas.getContext('2d');
